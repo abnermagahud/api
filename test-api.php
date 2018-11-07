@@ -5,7 +5,7 @@ require_once('authorize.payment.class.php');
 $customerKey = '<customer key>';
 $authorize = new AuthorizePayment($customerKey);
 
-$fields = array(
+$params = array(
 	'cardNumber' => '6011000000000012',
 	'expirationDate' => '2019-12',
 	'cvv' => '123',
@@ -26,7 +26,7 @@ $fields = array(
 );
 
 
-$results = $authorize->chargeCreditCard($fields);
+$results = $authorize->chargeCreditCard($params);
 
 print_r($results);
 ?>
