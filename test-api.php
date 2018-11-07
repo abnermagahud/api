@@ -1,6 +1,6 @@
 <?php
 
-require_once('authorize.payment.class.php');
+require_once('authorize.payment.api.php');
 
 $customerKey = '<customer key>';
 $authorize = new AuthorizePayment($customerKey);
