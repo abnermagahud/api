@@ -231,6 +231,7 @@ Just change the value of `public $environment = 'sandbox'` to `public $environme
 	?>
 
 ## Retrieve Customer's Credit Cards
+##### Use this function to retrieve the credit cards payment profile for an existing customer profile.
 
 	<?php
 
@@ -250,6 +251,7 @@ Just change the value of `public $environment = 'sandbox'` to `public $environme
 	?>
 
 ## Retrieve Customer's Bank Accounts
+##### Use this function to retrieve the bank account payment profile for an existing customer profile.
 
 	<?php
 
