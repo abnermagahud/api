@@ -196,7 +196,7 @@ Just change the value of `public $environment = 'sandbox'` to `public $environme
 		print_r($results);
 	?>
 
-## Create Customer Credit Card Payment Profile
+## Create Customer Check Payment Profile
 ###### Use this function to create a new bank account customer payment profile for an existing customer profile.
 
 	<?php
