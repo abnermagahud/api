@@ -236,7 +236,7 @@
 		$customerKey = '<customer key>';
 		$authorize = new AuthorizePayment($customerKey);
 
-		$params = $fields = array(
+		$params = array(
 			'passengerID'=>'<passenger id>'
 		);
 
@@ -255,7 +255,7 @@
 		$customerKey = '<customer key>';
 		$authorize = new AuthorizePayment($customerKey);
 
-		$params = $fields = array(
+		$params = array(
 			'passengerID'=>'<passenger id>'
 		);
 
