@@ -1,6 +1,7 @@
 # API
 
-## Charge a Credit Card - Use this method to authorize and capture a credit card payment.
+## Charge a Credit Card 
+### Use this method to authorize and capture a credit card payment.
 
 	<?php
 
@@ -35,7 +36,8 @@
 		print_r($results);
 	?>
 
-## Authorize a Credit Card - Use this method to authorize a credit card payment. To actually charge the funds you will need to follow up with a capture transaction.
+## Authorize a Credit Card 
+### Use this method to authorize a credit card payment. To actually charge the funds you will need to follow up with a capture transaction.
 
 	<?php
 
@@ -71,7 +73,8 @@
 	?>
 
 
-## Capture a Previously Authorized Amount - Use this method to capture funds reserved with a previous authOnlyTransaction transaction request.
+## Capture a Previously Authorized Amount 
+### Use this method to capture funds reserved with a previous authOnlyTransaction transaction request.
 
 	<?php
 
@@ -91,7 +94,8 @@
 		print_r($results);
 	?>
 
-## Debit a Bank Account - Use this method to process an ACH debit transaction using bank account details.
+## Debit a Bank Account
+### Use this method to process an ACH debit transaction using bank account details.
 
 	<?php
 
@@ -131,7 +135,8 @@
 		print_r($results);
 	?>
 
-## Charge a Customer Profile - Use this method to authorize and capture a payment using a stored customer payment profile. 
+## Charge a Customer Profile
+### Use this method to authorize and capture a payment using a stored customer payment profile. 
 
 	<?php
 
@@ -154,7 +159,8 @@
 		print_r($results);
 	?>
 
-## Create Customer Credit Card Payment Profile - Use this function to create a new credit card customer payment profile for an existing customer profile.
+## Create Customer Credit Card Payment Profile
+### Use this function to create a new credit card customer payment profile for an existing customer profile.
 
 	<?php
 
@@ -186,7 +192,8 @@
 		print_r($results);
 	?>
 
-## Create Customer Credit Card Payment Profile - Use this function to create a new bank account customer payment profile for an existing customer profile.
+## Create Customer Credit Card Payment Profile
+### Use this function to create a new bank account customer payment profile for an existing customer profile.
 
 	<?php
 
