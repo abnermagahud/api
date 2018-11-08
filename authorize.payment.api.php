@@ -206,5 +206,7 @@ class AuthorizePayment{
 	{
 		return json_decode($json, TRUE);
 	}
+
+	
 }
 ?>
