@@ -5,7 +5,9 @@ require_once('authorize.payment.api.php');
 $customerKey = '<customer key>';
 $authorize = new AuthorizePayment($customerKey);
 
-$params = array(
+echo $authorize->sandbox(true);
+
+/*$params = array(
 	'cardNumber' => '6011000000000012',
 	'expirationDate' => '2019-12',
 	'cvv' => '123',
@@ -28,5 +30,5 @@ $params = array(
 
 $results = $authorize->chargeCreditCard($params);
 
-print_r($results);
+print_r($results);*/
 ?>

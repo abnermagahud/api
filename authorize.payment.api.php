@@ -195,5 +195,16 @@ class AuthorizePayment{
 
 		return $result;
 	}
+
+
+	/**
+	 * Convert JSON data into array
+	 * @param  string $json 	JSON data
+	 * @return array
+	 */
+	public function convertJsonToArray($json)
+	{
+		return json_decode($json, TRUE);
+	}
 }
 ?>
