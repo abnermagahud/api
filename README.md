@@ -1,5 +1,9 @@
 # API
 
+## API Environment
+Just change the value of `public $environment = 'sandbox'` to `public $environment = 'production' for production environment. Default is `sandbox`
+
+
 ## Charge a Credit Card 
 ###### Use this method to authorize and capture a credit card payment.
 
