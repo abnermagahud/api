@@ -1,7 +1,7 @@
 # API
 
 ## Charge a Credit Card 
-### Use this method to authorize and capture a credit card payment.
+###### Use this method to authorize and capture a credit card payment.
 
 	<?php
 
@@ -37,7 +37,7 @@
 	?>
 
 ## Authorize a Credit Card 
-### Use this method to authorize a credit card payment. To actually charge the funds you will need to follow up with a capture transaction.
+###### Use this method to authorize a credit card payment. To actually charge the funds you will need to follow up with a capture transaction.
 
 	<?php
 
@@ -74,7 +74,7 @@
 
 
 ## Capture a Previously Authorized Amount 
-### Use this method to capture funds reserved with a previous authOnlyTransaction transaction request.
+###### Use this method to capture funds reserved with a previous authOnlyTransaction transaction request.
 
 	<?php
 
@@ -95,7 +95,7 @@
 	?>
 
 ## Debit a Bank Account
-### Use this method to process an ACH debit transaction using bank account details.
+###### Use this method to process an ACH debit transaction using bank account details.
 
 	<?php
 
@@ -136,7 +136,7 @@
 	?>
 
 ## Charge a Customer Profile
-### Use this method to authorize and capture a payment using a stored customer payment profile. 
+###### Use this method to authorize and capture a payment using a stored customer payment profile. 
 
 	<?php
 
@@ -160,7 +160,7 @@
 	?>
 
 ## Create Customer Credit Card Payment Profile
-### Use this function to create a new credit card customer payment profile for an existing customer profile.
+###### Use this function to create a new credit card customer payment profile for an existing customer profile.
 
 	<?php
 
@@ -193,7 +193,7 @@
 	?>
 
 ## Create Customer Credit Card Payment Profile
-### Use this function to create a new bank account customer payment profile for an existing customer profile.
+###### Use this function to create a new bank account customer payment profile for an existing customer profile.
 
 	<?php
 
