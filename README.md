@@ -221,8 +221,7 @@ Just change the value of `public $environment = 'sandbox'` to `public $environme
 			'state'=>'Negros Occidetal',
 			'zip'=>'6111',
 			'country'=>'PHL',
-			'phoneNumber'=>'982121739',
-			'faxNumber'=>''
+			'phoneNumber'=>'982121739'
 		);
 
 
