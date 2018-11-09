@@ -114,7 +114,7 @@ Ask the admin to generate it.
 			'accountType' => 'checking',//checking, savings, or businessChecking
 			'routingNumber' => '122000661',
 			'accountNumber' => '12312312444',
-			'fullName'=>'Test Full Name',
+			'accountName'=>'Test Full Name',
 			'bankName' => 'Test Bank Name',
 			'invoiceNumber' => time(),
 			'description'=>'this is a test',
